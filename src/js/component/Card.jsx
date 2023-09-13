@@ -1,6 +1,6 @@
 import React from "react";
 import PropType from "prop-types";
-import Button from "./Button.js"
+import Button from "./Button.jsx"
 
 
 const Card = (props) => {
