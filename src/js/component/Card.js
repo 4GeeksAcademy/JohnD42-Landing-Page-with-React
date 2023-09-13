@@ -1,5 +1,6 @@
 import React from "react";
 import PropType from "prop-types";
+import Button from "./Button.js"
 
 
 const Card = (props) => {
@@ -12,9 +13,7 @@ const Card = (props) => {
                     <p className="card-text">{props.description}</p>
                 </div>
                 <div className="card-footer bg-white d-flex">
-                    <a href={props.buttonUrl} className="btn btn-primary mx-auto">
-                        <strong>{props.buttonLabel}</strong>
-                    </a>
+                    <Button buttonUrl={props.buttonUrl} buttonLabel={props.buttonLabel} buttonSize="md"/> 
                 </div>
             </div>
         </div>
