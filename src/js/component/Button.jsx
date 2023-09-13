@@ -16,4 +16,4 @@ Button.propTypes = {
     buttonLarge: PropType.bool
 }
 
-export default Button
+export default Button;
