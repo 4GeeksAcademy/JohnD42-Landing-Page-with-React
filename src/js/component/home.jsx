@@ -7,7 +7,7 @@ import Footer from './Footer.js'
 //create your first component
 const Home = () => {
 	return (
-		<div className="container">
+		<div className="container g-0">
 			<NavBar />
 			<Jumbotron />
 			<div className='row gx-5'>
